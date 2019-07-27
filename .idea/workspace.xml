@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f8e406d-d393-48d6-bff0-b18c7ccaf585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryManager.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1035">
-              <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -44,26 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="255">
-                <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FactoryManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#14#32#0" expanded="true" />
-                <element signature="e#374#393#0" expanded="true" />
+                <element signature="e#408#427#0" expanded="true" />
                 <element signature="e#673#685#0" expanded="true" />
                 <element signature="e#1462#1490#0" expanded="true" />
                 <element signature="e#2103#2133#0" expanded="true" />
@@ -89,9 +89,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FactoryManager.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/FactoryManager.h" />
       </list>
     </option>
   </component>
@@ -155,19 +155,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564223311636</updated>
-      <workItem from="1564223315548" duration="5716000" />
+      <workItem from="1564223315548" duration="5894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5716000" />
+    <option name="totallyTimeSpent" value="5894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="29" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19734904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19734904" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -202,28 +202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-            <element signature="e#374#393#0" expanded="true" />
-            <element signature="e#673#685#0" expanded="true" />
-            <element signature="e#1462#1490#0" expanded="true" />
-            <element signature="e#2103#2133#0" expanded="true" />
-            <element signature="e#2683#2721#0" expanded="true" />
-            <element signature="e#4129#4141#0" expanded="true" />
-            <element signature="e#4685#4697#0" expanded="true" />
-            <element signature="e#5235#5247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1035">
-          <caret line="69" column="17" lean-forward="true" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -233,10 +215,28 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="2" lean-forward="true" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+            <element signature="e#408#427#0" expanded="true" />
+            <element signature="e#673#685#0" expanded="true" />
+            <element signature="e#1462#1490#0" expanded="true" />
+            <element signature="e#2103#2133#0" expanded="true" />
+            <element signature="e#2683#2721#0" expanded="true" />
+            <element signature="e#4129#4141#0" expanded="true" />
+            <element signature="e#4685#4697#0" expanded="true" />
+            <element signature="e#5235#5247#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

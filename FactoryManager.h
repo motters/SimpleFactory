@@ -10,16 +10,12 @@ using namespace std;
 
 namespace Platform
 {
-    /**
-     * Container class that allows classes inherited by to create, get and destroy instances
-     * of any class that shares a base parent.
-     *
-     * @code
-     *
-     *
-     *
-     * @endcode
-     */
+     /**
+      * Container class to create, get and destroy instances of objects
+      * of any class that inherits BASEMANAGER.
+      *
+      * @tparam BASEMANAGER
+      */
     template<class BASEMANAGER>
     class ManagerFactory
     {
