@@ -55,6 +55,7 @@ int main()
     factory.get<cat>().instance->talk();
     factory.get<dog>().instance->talk();
     factory.get<dog>("2").instance->talk();
+    factory.get<dog>()->talk();
 
     return 0;
 }

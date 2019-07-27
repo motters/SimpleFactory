@@ -37,18 +37,32 @@ namespace Platform
 
         ManagerFactory(const ManagerFactory&) = delete;
 
+
+        /**
+         * Return type of get
+         *
+         * @tparam T
+         */
         template<typename T>
         struct Return
         {
+            // Status of cast
             bool status;
+
+            // Location of object
             std::shared_ptr<T> instance = nullptr;
+
+            // Overload -> so we can dive straight into object without checking status
+            std::shared_ptr<T> operator->()
+            {
+                return instance;
+            }
         };
 
         /**
-         * Minimal version of c++ is 11 standard
+         * Minimal version of c++ is the 11 standard
          * as such we'll implement reinterpret_pointer_cast locally
          */
-
         template <typename To, typename From>
         inline std::shared_ptr<To> reinterpret_pointer_cast(std::shared_ptr<From> const & ptr) noexcept
         {
