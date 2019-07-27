@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sammottley/CLionProjects/factorymanager/FactoryManager.h
+utility
+-
+memory
+-
+map
+-
+stdexcept
+-
+string
+-
+
+/Users/sammottley/CLionProjects/factorymanager/main.cpp
+iostream
+-
+FactoryManager.h
+/Users/sammottley/CLionProjects/factorymanager/FactoryManager.h
+
